@@ -16,7 +16,7 @@ class Solution {
         
         
         if (ch == '(') num = calculate(s);
-        if (i >= s.length() || ch == '+'|| ch == '-'|| ch == '*'|| ch == '/'){
+        if (i >= s.length() || ch == '+'|| ch == '-'|| ch == '*'|| ch == '/'||ch==')'){
             
             if (operator == '+') stack.push(num);
             else if (operator == '-') stack.push(-num);
